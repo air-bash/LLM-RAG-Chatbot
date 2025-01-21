@@ -1,0 +1,15 @@
+[project]
+name = "llm-rag-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=0.6.3",
+    "langchain>=0.3.14",
+    "langchain-community>=0.3.14",
+    "langchain-openai>=0.3.1",
+    "langchainhub>=0.1.21",
+    "openai>=1.59.8",
+    "python-dotenv>=1.0.1",
+]
